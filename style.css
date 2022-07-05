@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+.container{
+    margin: 0 auto;
+}
+.text{
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    padding-top: 30px;
+}
+.header{
+    font-size: 32px;
+    font-weight: 200;
+}
+.text h2{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.note p{
+   color: hsl(229, 6%, 66%);
+   font-weight: 200;
+   font-style: normal;
+}
+.card-box{
+    margin:145px 50px 0 50px; 
+}
+
+.card-content{
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center;
+    margin:0px;
+}
+
+.card-content > div{
+    width:30%;
+    margin:5px;
+}
+.middle-card-first{
+    margin-top:-100px;
+}
+
+.middle-card-second{
+    margin-top:100px;
+}
+.small-box{
+    background-color: #ffffff;
+    padding: 30px 30px 50px 30px;
+    border-radius: 15px;
+    /* box-shadow: 2px; */
+    
+} 
+.small-box h2{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+.small-box p{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    padding-top: 20px
+
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+}
+.supervisor{
+    border-top: 5px hsl(180, 62%, 55%) solid;
+}
+.team{
+    border-top: 5px hsl(0, 78%, 62%) solid;
+}
+.karma{
+    border-top: 5px hsl(34, 97%, 64%) solid;
+}
+.calculator{
+    border-top: 5px hsl(212, 86%, 64%) solid;
+}
+@media screen and (max-width:768px) {
+    .text h2{
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+    .header{
+        font-size: 26px;
+    }
+    .card-content{
+        display: block;
+    }
+    .card-box{
+        margin: 50px 27px 0 27px;
+    }
+    .card-content>div{
+        width: unset;
+        margin: unset;
+        margin-bottom: 20px;
+    }
+    .middle-card-first{
+        margin-top: unset;
+        margin-bottom: 20px;
+    }
+    .middle-card-second{
+        margin-top: unset;
+        margin-bottom: 20px;
+    }
+    .note p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
